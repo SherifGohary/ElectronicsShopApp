@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ElectronicsShop.Entities/1.0.0": {
+        "dependencies": {
+          "ElectronicsShop.Common": "1.0.0"
+        },
+        "runtime": {
+          "ElectronicsShop.Entities.dll": {}
+        }
+      },
+      "ElectronicsShop.Common/1.0.0": {
+        "runtime": {
+          "ElectronicsShop.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ElectronicsShop.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ElectronicsShop.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

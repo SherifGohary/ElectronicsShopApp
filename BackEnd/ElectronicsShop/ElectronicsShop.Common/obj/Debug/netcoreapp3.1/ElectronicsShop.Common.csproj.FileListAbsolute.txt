@@ -1,0 +1,9 @@
+C:\Users\HP\source\Workspaces\ElectronicsShop\ElectronicsShop.Common\bin\Debug\netcoreapp3.1\ElectronicsShop.Common.deps.json
+C:\Users\HP\source\Workspaces\ElectronicsShop\ElectronicsShop.Common\bin\Debug\netcoreapp3.1\ElectronicsShop.Common.dll
+C:\Users\HP\source\Workspaces\ElectronicsShop\ElectronicsShop.Common\bin\Debug\netcoreapp3.1\ElectronicsShop.Common.pdb
+C:\Users\HP\source\Workspaces\ElectronicsShop\ElectronicsShop.Common\obj\Debug\netcoreapp3.1\ElectronicsShop.Common.csprojAssemblyReference.cache
+C:\Users\HP\source\Workspaces\ElectronicsShop\ElectronicsShop.Common\obj\Debug\netcoreapp3.1\ElectronicsShop.Common.AssemblyInfoInputs.cache
+C:\Users\HP\source\Workspaces\ElectronicsShop\ElectronicsShop.Common\obj\Debug\netcoreapp3.1\ElectronicsShop.Common.AssemblyInfo.cs
+C:\Users\HP\source\Workspaces\ElectronicsShop\ElectronicsShop.Common\obj\Debug\netcoreapp3.1\ElectronicsShop.Common.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\Workspaces\ElectronicsShop\ElectronicsShop.Common\obj\Debug\netcoreapp3.1\ElectronicsShop.Common.dll
+C:\Users\HP\source\Workspaces\ElectronicsShop\ElectronicsShop.Common\obj\Debug\netcoreapp3.1\ElectronicsShop.Common.pdb
