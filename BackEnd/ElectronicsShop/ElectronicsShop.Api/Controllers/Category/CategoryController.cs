@@ -34,6 +34,7 @@ namespace ElectronicsShop.Api.Controllers
 		[Route("get-by-pagger/{pageIndex}/{pageSize}")]
 		[HttpGet]
 		public GenericCollectionViewModel<CategoryViewModel> Get(int? pageIndex, int? pageSize)
+		
 		{
 			var result = this._categoryService.Get(pageIndex, pageSize);
 			return result;

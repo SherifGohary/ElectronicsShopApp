@@ -323,11 +323,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.Core\\ElectronicsShop.Core.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.Core\\ElectronicsShop.Core.csproj",
       "projectName": "ElectronicsShop.Core",
-      "projectPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.Core\\ElectronicsShop.Core.csproj",
+      "projectPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.Core\\ElectronicsShop.Core.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.Core\\obj\\",
+      "outputPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -343,11 +343,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.Common\\ElectronicsShop.Common.csproj": {
-              "projectPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.Common\\ElectronicsShop.Common.csproj"
+            "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.Common\\ElectronicsShop.Common.csproj": {
+              "projectPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.Common\\ElectronicsShop.Common.csproj"
             },
-            "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.Entities\\ElectronicsShop.Entities.csproj": {
-              "projectPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.Entities\\ElectronicsShop.Entities.csproj"
+            "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.Entities\\ElectronicsShop.Entities.csproj": {
+              "projectPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.Entities\\ElectronicsShop.Entities.csproj"
             }
           }
         }

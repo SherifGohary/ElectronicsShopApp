@@ -37,6 +37,16 @@ namespace ElectronicsShop.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAllHeaders",
+                      builder =>
+                      {
+                          builder.AllowAnyOrigin()
+                                 .AllowAnyHeader()
+                                 .AllowAnyMethod();
+                      });
+            });
 
             var connectionString = Configuration.GetConnectionString("ElectronicsShop");
             services.AddDbContext<ElectronicsShopContext>(options => options.UseSqlServer(connectionString));
@@ -81,6 +91,7 @@ namespace ElectronicsShop.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors("AllowAllHeaders");
 
             app.UseHttpsRedirection();
 

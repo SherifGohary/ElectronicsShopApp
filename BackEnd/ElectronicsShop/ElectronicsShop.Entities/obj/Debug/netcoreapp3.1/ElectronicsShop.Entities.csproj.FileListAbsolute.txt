@@ -10,3 +10,15 @@ C:\Users\HP\source\Workspaces\ElectronicsShop\ElectronicsShop.Entities\obj\Debug
 C:\Users\HP\source\Workspaces\ElectronicsShop\ElectronicsShop.Entities\obj\Debug\netcoreapp3.1\ElectronicsShop.Entities.csproj.CopyComplete
 C:\Users\HP\source\Workspaces\ElectronicsShop\ElectronicsShop.Entities\obj\Debug\netcoreapp3.1\ElectronicsShop.Entities.dll
 C:\Users\HP\source\Workspaces\ElectronicsShop\ElectronicsShop.Entities\obj\Debug\netcoreapp3.1\ElectronicsShop.Entities.pdb
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Entities\bin\Debug\netcoreapp3.1\ElectronicsShop.Entities.deps.json
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Entities\bin\Debug\netcoreapp3.1\ElectronicsShop.Entities.dll
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Entities\bin\Debug\netcoreapp3.1\ElectronicsShop.Entities.pdb
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Entities\bin\Debug\netcoreapp3.1\ElectronicsShop.Common.dll
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Entities\bin\Debug\netcoreapp3.1\ElectronicsShop.Common.pdb
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Entities\obj\Debug\netcoreapp3.1\ElectronicsShop.Entities.csprojAssemblyReference.cache
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Entities\obj\Debug\netcoreapp3.1\ElectronicsShop.Entities.AssemblyInfoInputs.cache
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Entities\obj\Debug\netcoreapp3.1\ElectronicsShop.Entities.AssemblyInfo.cs
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Entities\obj\Debug\netcoreapp3.1\ElectronicsShop.Entities.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Entities\obj\Debug\netcoreapp3.1\ElectronicsShop.Entities.csproj.CopyComplete
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Entities\obj\Debug\netcoreapp3.1\ElectronicsShop.Entities.dll
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Entities\obj\Debug\netcoreapp3.1\ElectronicsShop.Entities.pdb

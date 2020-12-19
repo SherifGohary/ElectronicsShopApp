@@ -23,6 +23,6 @@ namespace ElectronicsShop.Core.Models
         public int Count { get; set; }
         public string Description { get; set; }
         public long CategoryId { get; set; }
-        public CategoryViewModel Category { get; set; }
+        public string CategoryName { get; set; }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oCXTkLYOtRe3Pc9N6Ukh8Glz2cFKzHSmjOLR6BXjfuaBk0t2u6adeoo+MECQpyZhiw8ZwhLybIAqmjhqn8YizA==",
+  "dgSpecHash": "RMUEMpZORprrRDKFdARQHiDacZhZNwLDiAluAvcy6bUAwtaD9SRAJzRFqsrpzvzcF0J/rs7rm8kzXjQkUTMvLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.DataAccess\\ElectronicsShop.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.DataAccess\\ElectronicsShop.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

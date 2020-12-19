@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.Common\\ElectronicsShop.Common.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.Common\\ElectronicsShop.Common.csproj",
       "projectName": "ElectronicsShop.Common",
-      "projectPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.Common\\ElectronicsShop.Common.csproj",
+      "projectPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.Common\\ElectronicsShop.Common.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.Common\\obj\\",
+      "outputPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

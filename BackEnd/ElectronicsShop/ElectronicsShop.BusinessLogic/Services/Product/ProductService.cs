@@ -51,6 +51,7 @@ namespace ElectronicsShop.BusinessLogic.Services
 				PageIndex = pageIndex,
 				PageSize = pageSize
 			};
+			condition.NavigationProperties.Add("Category");
 			var entityCollection = this._productRepository.Get(condition).ToList();
 			var modelCollection = entityCollection.Select(entity => _mapper.Map<ProductViewModel>(entity)).ToList();
 			var result = new GenericCollectionViewModel<ProductViewModel>

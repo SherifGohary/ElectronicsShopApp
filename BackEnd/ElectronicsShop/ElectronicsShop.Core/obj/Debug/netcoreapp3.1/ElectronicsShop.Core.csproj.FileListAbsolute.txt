@@ -12,3 +12,17 @@ C:\Users\HP\source\Workspaces\ElectronicsShop\ElectronicsShop.Core\bin\Debug\net
 C:\Users\HP\source\Workspaces\ElectronicsShop\ElectronicsShop.Core\obj\Debug\netcoreapp3.1\ElectronicsShop.Core.csproj.CoreCompileInputs.cache
 C:\Users\HP\source\Workspaces\ElectronicsShop\ElectronicsShop.Core\obj\Debug\netcoreapp3.1\ElectronicsShop.Core.dll
 C:\Users\HP\source\Workspaces\ElectronicsShop\ElectronicsShop.Core\obj\Debug\netcoreapp3.1\ElectronicsShop.Core.pdb
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Core\bin\Debug\netcoreapp3.1\ElectronicsShop.Core.deps.json
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Core\bin\Debug\netcoreapp3.1\ElectronicsShop.Core.dll
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Core\bin\Debug\netcoreapp3.1\ElectronicsShop.Core.pdb
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Core\bin\Debug\netcoreapp3.1\ElectronicsShop.Common.dll
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Core\bin\Debug\netcoreapp3.1\ElectronicsShop.Entities.dll
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Core\bin\Debug\netcoreapp3.1\ElectronicsShop.Common.pdb
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Core\bin\Debug\netcoreapp3.1\ElectronicsShop.Entities.pdb
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Core\obj\Debug\netcoreapp3.1\ElectronicsShop.Core.csprojAssemblyReference.cache
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Core\obj\Debug\netcoreapp3.1\ElectronicsShop.Core.AssemblyInfoInputs.cache
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Core\obj\Debug\netcoreapp3.1\ElectronicsShop.Core.AssemblyInfo.cs
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Core\obj\Debug\netcoreapp3.1\ElectronicsShop.Core.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Core\obj\Debug\netcoreapp3.1\ElectronicsShop.Core.csproj.CopyComplete
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Core\obj\Debug\netcoreapp3.1\ElectronicsShop.Core.dll
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.Core\obj\Debug\netcoreapp3.1\ElectronicsShop.Core.pdb

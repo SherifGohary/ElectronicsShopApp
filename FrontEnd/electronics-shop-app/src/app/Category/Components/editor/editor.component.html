@@ -1,0 +1,45 @@
+<div class="container-fluid">
+
+    <section class="editor-section">
+        <form role="form" [formGroup]="editorForm">
+            <div class="row">
+
+                <div class="form-group col-md-2">
+                    <label>Category Name
+                        <i *ngIf="canEdit()" class="text-danger">*</i>
+                    </label>
+                    <div class="detail w-100">
+                        <input type="text" *ngIf="canEdit()" class="form-control" #name 
+                        formControlName="name">
+                
+                        <label *ngIf="editorMode == editorModeEnum.detail"
+                            class="form-control">{{itemModel?.name}}</label>
+                
+                        <div class="text-danger" 
+                        *ngIf="(editorForm.controls['name'].hasError('required' ) )&&
+                                   (editorForm.controls['name'].touched || 
+                                    editorForm.controls['name'].dirty)">
+                            required field.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group col-lg-4">
+                    <button *ngIf="canEdit()" type="submit" (click)="save()"
+                        [disabled]="!editorForm.valid || isProccessing" class="btn btn-secondary">
+                        <i class="fa fa-floppy-o verticalLine"></i> Save
+                    </button>
+                    &nbsp;
+                    <button (click)="goToBack()" class="btn btn-secondary">
+                        <i class="fa fa-undo"></i> Back
+                    </button>
+                </div>
+            </div>
+
+        </form>
+    </section>
+
+
+</div>

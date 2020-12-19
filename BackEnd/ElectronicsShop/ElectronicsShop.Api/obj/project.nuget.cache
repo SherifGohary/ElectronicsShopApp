@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YT5g3uQ4UDThMETqWs/0mbQrf69y2lIhj3NOgc65jz0Zhozf5Q7gPgJtYiAkZPuJ5MJ2JNeY3L6Ux8uUW8bRAw==",
+  "dgSpecHash": "q0ObZ3tCN+8hcFwtsrGTNqlnMEUgl6K/mnnjdtLlYEr5EAAG8kWGpdsO56AosUkUYVx3XOE9p2UJlcghvK+3Og==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.Api\\ElectronicsShop.Api.csproj",
+  "projectFilePath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.Api\\ElectronicsShop.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

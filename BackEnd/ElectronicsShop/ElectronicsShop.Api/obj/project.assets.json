@@ -5960,11 +5960,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.Api\\ElectronicsShop.Api.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.Api\\ElectronicsShop.Api.csproj",
       "projectName": "ElectronicsShop.Api",
-      "projectPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.Api\\ElectronicsShop.Api.csproj",
+      "projectPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.Api\\ElectronicsShop.Api.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.Api\\obj\\",
+      "outputPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5980,11 +5980,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.BusinessLogic\\ElectronicsShop.BusinessLogic.csproj": {
-              "projectPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.BusinessLogic\\ElectronicsShop.BusinessLogic.csproj"
+            "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.BusinessLogic\\ElectronicsShop.BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.BusinessLogic\\ElectronicsShop.BusinessLogic.csproj"
             },
-            "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.DataAccess\\ElectronicsShop.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.DataAccess\\ElectronicsShop.DataAccess.csproj"
+            "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.DataAccess\\ElectronicsShop.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.DataAccess\\ElectronicsShop.DataAccess.csproj"
             }
           }
         }

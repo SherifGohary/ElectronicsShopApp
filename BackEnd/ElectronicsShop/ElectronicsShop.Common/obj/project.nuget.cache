@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3bWoM7lftJCpVxiRpuonJBY8L3XRDlFEmrPuuYI+aP7h9LB3G5I4/0dexgCfxMsLP5siJzUvLD1UuH20Yg0LaA==",
+  "dgSpecHash": "ryHCI2qxX4v2j91RE7zSBacusKN/nyP/5DycjNlXIimrqOEgXoxxT4wB51JRuaUaT1ab5ZE9dCKuX9k8f9zHfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\ElectronicsShop.Common\\ElectronicsShop.Common.csproj",
+  "projectFilePath": "C:\\Users\\HP\\source\\Workspaces\\ElectronicsShop\\BackEnd\\ElectronicsShop\\ElectronicsShop.Common\\ElectronicsShop.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

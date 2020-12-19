@@ -11,7 +11,9 @@ namespace ElectronicsShop.Core.AutoMapperProfiles
     {
         public ProductProfile()
         {
-            CreateMap<Product, ProductViewModel>().ReverseMap();
+            CreateMap<Product, ProductViewModel>()
+                .ForMember(dest => dest.CategoryName, opt => opt.MapFrom(src => src.Category.Name));
+            CreateMap<ProductViewModel, Product>();
                 //.ForMember(dest => dest.Description, opt => opt.MapFrom(src => src.Description));
         }
     }
