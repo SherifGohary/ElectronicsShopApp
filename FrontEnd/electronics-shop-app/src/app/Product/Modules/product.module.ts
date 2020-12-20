@@ -5,6 +5,7 @@ import { EditorComponent } from './../../Product/Components/editor/editor.compon
 import { GridModule } from '@progress/kendo-angular-grid';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { ProductRoutingModule } from '../Routers/product-routing.module';
+import { DropDownsModule } from '@progress/kendo-angular-dropdowns';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ProductRoutingModule } from '../Routers/product-routing.module';
     ProductRoutingModule,
     GridModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    DropDownsModule
   ]
 })
 export class ProductModule { }

@@ -12,26 +12,12 @@ import { IndicatorsModule } from '@progress/kendo-angular-indicators';
 import { LayoutModule } from '@progress/kendo-angular-layout';
 import { GridModule } from '@progress/kendo-angular-grid';
 import { DropDownsModule } from '@progress/kendo-angular-dropdowns';
-import { ToastrModule } from 'ngx-toastr'
+import { ToastrModule } from 'ngx-toastr';
 
-
-
-
-
-
-
-// import { ListComponent } from './Category/Components/list/list.component';
-// import { EditorComponent } from './Category/Components/editor/editor.component';
-// import { ListComponent } from './Product/Components/list/list.component';
-// import { EditorComponent } from './Product/Components/editor/editor.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    // ListComponent,
-    // EditorComponent,
-    // ListComponent,
-    // EditorComponent
   ],
   imports: [
     BrowserModule,

@@ -15,14 +15,18 @@
       <ul>
           <li><span><a class="btn btn-light" routerLink="/product" routerLinkActive="active">Products</a></span></li>
           <li><span><a class="btn btn-light" routerLink="/category" routerLinkActive="active">Categories</a></span></li>
-          <li><span><a class="btn btn-light">Users</a></span></li>
-          <li><span><a class="btn btn-light">Orders</a></span></li>
+          <li><span><a class="btn btn-light" routerLink="/user" routerLinkActive="active">Users</a></span></li>
+          <li><span><a class="btn btn-light" routerLink="/order" routerLinkActive="active">Orders</a></span></li>
       </ul>
   </kendo-appbar-section>
 
   <kendo-appbar-spacer></kendo-appbar-spacer>
 
   <kendo-appbar-section class="actions">
+    <ul>
+        <li><span><a class="btn btn-dark" routerLink="/user/register" routerLinkActive="active">Register</a></span></li>
+        <li><span><a class="btn btn-primary" routerLink="/user/login" routerLinkActive="active">Login</a></span></li>
+    </ul>
       <kendo-badge-container>
           <button class="k-button k-button-clear">
               <kendo-icon [name]="'bell'"></kendo-icon>

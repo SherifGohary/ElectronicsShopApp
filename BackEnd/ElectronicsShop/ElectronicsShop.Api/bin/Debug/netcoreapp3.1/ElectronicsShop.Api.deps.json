@@ -1426,7 +1426,8 @@
       },
       "ElectronicsShop.BusinessLogic/1.0.0": {
         "dependencies": {
-          "ElectronicsShop.Core": "1.0.0"
+          "ElectronicsShop.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.1"
         },
         "runtime": {
           "ElectronicsShop.BusinessLogic.dll": {}

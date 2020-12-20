@@ -1,0 +1,229 @@
+<div class="container-fluid">
+
+    <section class="editor-section">
+        <form role="form" [formGroup]="editorForm">
+            <!-- Full Name -->
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label>Full Name
+                        <i *ngIf="canEdit()" class="text-danger">*</i>
+                    </label>
+                    <div class="detail w-100">
+                        <input type="text" *ngIf="canEdit()" class="form-control" #fullName 
+                        formControlName="fullName">
+                
+                        <label *ngIf="editorMode == editorModeEnum.detail"
+                            class="form-control">{{itemModel?.fullName}}</label>
+                
+                        <div class="text-danger" 
+                        *ngIf="(editorForm.controls['fullName'].hasError('required' ) )&&
+                                   (editorForm.controls['fullName'].touched || 
+                                    editorForm.controls['fullName'].dirty)">
+                            required field.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- UserName -->
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label>User Name
+                        <i *ngIf="canEdit()" class="text-danger">*</i>
+                    </label>
+                    <div class="detail w-100">
+                        <input type="text" *ngIf="canEdit()" class="form-control" #userName 
+                        formControlName="userName">
+                
+                        <label *ngIf="editorMode == editorModeEnum.detail"
+                            class="form-control">{{itemModel?.userName}}</label>
+                
+                        <div class="text-danger" 
+                        *ngIf="(editorForm.controls['userName'].hasError('required' ) )&&
+                                   (editorForm.controls['userName'].touched || 
+                                    editorForm.controls['userName'].dirty)">
+                            required field.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Password -->
+            <div class="row" *ngIf="canEdit()">
+                <div class="form-group col-md-6">
+                    <label>Password
+                        <i *ngIf="canEdit()" class="text-danger">*</i>
+                    </label>
+                    <div class="detail w-100">
+                        <input type="password"  class="form-control" #password 
+                        formControlName="password">
+                
+                        <!-- <label *ngIf="editorMode == editorModeEnum.detail"
+                            class="form-control">{{itemModel?.password}}</label> -->
+                
+                        <div class="text-danger" 
+                        *ngIf="(editorForm.controls['password'].hasError('required' ) )&&
+                                   (editorForm.controls['password'].touched || 
+                                    editorForm.controls['password'].dirty)">
+                            required field.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label>Email
+                        <i *ngIf="canEdit()" class="text-danger">*</i>
+                    </label>
+                    <div class="detail w-100">
+                        <input type="email" *ngIf="canEdit()" class="form-control" #email 
+                        formControlName="email">
+                
+                        <label *ngIf="editorMode == editorModeEnum.detail"
+                            class="form-control">{{itemModel?.email}}</label>
+                
+                        <div class="text-danger" 
+                        *ngIf="(editorForm.controls['email'].hasError('required' ) )&&
+                                   (editorForm.controls['email'].touched || 
+                                    editorForm.controls['email'].dirty)">
+                            required field.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Country -->
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label>Country
+                        <i *ngIf="canEdit()" class="text-danger">*</i>
+                    </label>
+                    <div class="detail w-100">
+                        <input type="text" *ngIf="canEdit()" class="form-control" #country 
+                        formControlName="country">
+                
+                        <label *ngIf="editorMode == editorModeEnum.detail"
+                            class="form-control">{{itemModel?.country}}</label>
+                
+                        <div class="text-danger" 
+                        *ngIf="(editorForm.controls['country'].hasError('required' ) )&&
+                                   (editorForm.controls['country'].touched || 
+                                    editorForm.controls['country'].dirty)">
+                            required field.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- City -->
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label>City
+                        <i *ngIf="canEdit()" class="text-danger">*</i>
+                    </label>
+                    <div class="detail w-100">
+                        <input type="text" *ngIf="canEdit()" class="form-control" #city 
+                        formControlName="city">
+                
+                        <label *ngIf="editorMode == editorModeEnum.detail"
+                            class="form-control">{{itemModel?.city}}</label>
+                
+                        <div class="text-danger" 
+                        *ngIf="(editorForm.controls['city'].hasError('required' ) )&&
+                                   (editorForm.controls['city'].touched || 
+                                    editorForm.controls['city'].dirty)">
+                            required field.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Address -->
+             <div class="row">
+                <div class="form-group col-md-6">
+                    <label>Address
+                        <i *ngIf="canEdit()" class="text-danger">*</i>
+                    </label>
+                    <div class="detail w-100">
+                        <input type="text" *ngIf="canEdit()" class="form-control" #address 
+                        formControlName="address">
+                
+                        <label *ngIf="editorMode == editorModeEnum.detail"
+                            class="form-control">{{itemModel?.address}}</label>
+                
+                        <div class="text-danger" 
+                        *ngIf="(editorForm.controls['address'].hasError('required' ) )&&
+                                   (editorForm.controls['address'].touched || 
+                                    editorForm.controls['address'].dirty)">
+                            required field.
+                        </div>
+                    </div>
+                </div>
+            </div>           
+
+             <!-- Birth Date -->
+             <div class="row">
+                <div class="form-group col-md-6">
+                    <label>Birth Date
+                        <i *ngIf="canEdit()" class="text-danger">*</i>
+                    </label>
+                    <div class="detail w-100">
+                        <input type="date" *ngIf="canEdit()" class="form-control" #birthDate 
+                        formControlName="birthDate">
+                
+                        <label *ngIf="editorMode == editorModeEnum.detail"
+                            class="form-control">{{itemModel?.birthDate}}</label>
+                
+                        <div class="text-danger" 
+                        *ngIf="(editorForm.controls['birthDate'].hasError('required' ) )&&
+                                   (editorForm.controls['birthDate'].touched || 
+                                    editorForm.controls['birthDate'].dirty)">
+                            required field.
+                        </div>
+                    </div>
+                </div>
+            </div>  
+
+
+             <!-- Phone Number -->
+             <div class="row">
+                <div class="form-group col-md-6">
+                    <label>Phone Number
+                        <i *ngIf="canEdit()" class="text-danger">*</i>
+                    </label>
+                    <div class="detail w-100">
+                        <input type="text" *ngIf="canEdit()" class="form-control" #phoneNumber 
+                        formControlName="phoneNumber">
+                
+                        <label *ngIf="editorMode == editorModeEnum.detail"
+                            class="form-control">{{itemModel?.phoneNumber}}</label>
+                
+                        <div class="text-danger" 
+                        *ngIf="(editorForm.controls['phoneNumber'].hasError('required' ) )&&
+                                   (editorForm.controls['phoneNumber'].touched || 
+                                    editorForm.controls['phoneNumber'].dirty)">
+                            required field.
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+
+            <div class="row">
+                <div class="form-group col-lg-4">
+                    <button *ngIf="canEdit()" type="submit" (click)="save()"
+                        [disabled]="!editorForm.valid || isProccessing" class="btn btn-secondary">
+                        <i class="fa fa-floppy-o verticalLine"></i> Save
+                    </button>
+                    &nbsp;
+                    <button (click)="goToBack()" class="btn btn-secondary">
+                        <i class="fa fa-undo"></i> Back
+                    </button>
+                </div>
+            </div>
+
+        </form>
+    </section>
+</div>

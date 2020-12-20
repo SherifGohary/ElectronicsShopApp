@@ -32,6 +32,7 @@ export class EditorComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    
     this.buildForm();
     this.extractRouteParams();
 

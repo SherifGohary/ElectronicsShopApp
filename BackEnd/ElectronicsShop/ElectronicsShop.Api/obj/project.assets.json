@@ -1548,7 +1548,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "ElectronicsShop.Core": "1.0.0"
+          "ElectronicsShop.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.1"
         },
         "compile": {
           "bin/placeholder/ElectronicsShop.BusinessLogic.dll": {}

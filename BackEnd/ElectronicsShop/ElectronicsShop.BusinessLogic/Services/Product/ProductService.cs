@@ -8,6 +8,7 @@ using ElectronicsShop.Entities.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using System.Text;
 
 namespace ElectronicsShop.BusinessLogic.Services
@@ -52,12 +53,13 @@ namespace ElectronicsShop.BusinessLogic.Services
 				PageSize = pageSize
 			};
 			condition.NavigationProperties.Add("Category");
-			var entityCollection = this._productRepository.Get(condition).ToList();
+			var entityCollection = this._productRepository.Get(condition).Include(i=>i.Category).ToList();
+			var allCount = this._productRepository.Get().Count();
 			var modelCollection = entityCollection.Select(entity => _mapper.Map<ProductViewModel>(entity)).ToList();
 			var result = new GenericCollectionViewModel<ProductViewModel>
 			{
 				Collection = modelCollection,
-				TotalCount = modelCollection.Count,
+				TotalCount = allCount,
 				PageIndex = pageIndex,
 				PageSize = pageSize
 			};

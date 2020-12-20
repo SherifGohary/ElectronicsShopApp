@@ -46,7 +46,7 @@ export class ListComponent implements OnInit {
     // });
 
     this.pageSize = 5;
-    this.getList();
+    // this.getList();
     this.extractRouteParams();
   }
 
@@ -70,11 +70,14 @@ export class ListComponent implements OnInit {
 
   extractRouteParams() {
     let pageIndex = +this.route.snapshot.params['pageIndex'];
-
-    this.pageIndex = 0;
+debugger;
     if (pageIndex) {
       this.pageIndex = pageIndex;
       this.skip = this.pageIndex * this.pageSize;  
+      this.getList();
+    }else{
+      this.pageIndex = 0;
+      this.getList();
     }
   }
 
@@ -83,37 +86,6 @@ export class ListComponent implements OnInit {
     this.pageIndex = (this.skip / this.pageSize);
     this.state = state;
     this.filter = this.state.filter.filters;
-    // if (this.filter.length > 0) {
-    //   for (var _i = 0; _i < this.filter.length; _i++) {
-    //     if (this.filter[_i].filters) {
-    //       var x = this.filter[_i].filters;
-    //       // this.postSearch.dateFrom = x[0].value.toISOString().substring(0, 10);
-    //       // this.postSearch.dateTo = x[1].value.toISOString().substring(0, 10);
-    //       //this.filter.splice( _i,1);      
-    //     } else {
-    //       // this.postSearch.dateFrom = new Date(new Date().setMonth(new Date().getMonth() - 1)).toISOString().substring(0, 10);
-    //       // this.postSearch.dateTo = new Date(Date.now()).toISOString().substring(0, 10);
-    //     }
-
-    //     // if (this.filter[_i].field == "code") {
-    //     //   this.postSearch.code = this.filter[_i].value;
-    //     // }
-
-    //     // if (this.filter[_i].field == "date") {
-    //     //   this.postSearch.dateFrom = this.filter[_i].value.toISOString().substring(0, 10);
-    //     //   this.postSearch.dateTo = new Date(Date.now()).toISOString().substring(0, 10);
-    //     // }
-
-    //   }
-    //   this.postSearch.filters = this.filter;
-    //   this.pageIndex = 0;
-    // } else {
-    //   this.postSearch = new PostSearch();
-    // //   this.postSearch.bank = this.bank;
-    // //   this.postSearch.journalType = this.journalType;
-    // }
-    // //debugger;
-    // this.postSearch.sort = this.state.sort;
     this.getList();
   }
 

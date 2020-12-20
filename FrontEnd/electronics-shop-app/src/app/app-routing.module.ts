@@ -4,7 +4,6 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   { path: "", pathMatch: "full", redirectTo: "/product" },
-  //{path: '', pathMatch: 'full', redirectTo: '/financial/financial-list'},
   {
     path: "product",
     loadChildren:
@@ -14,6 +13,16 @@ const routes: Routes = [
     path: "category",
     loadChildren:
       "src/app/Category/Modules/category.module#CategoryModule",
+  },
+  {
+    path: "user",
+    loadChildren:
+      "src/app/User/Modules/user.module#UserModule",
+  },
+  {
+    path: "order",
+    loadChildren:
+      "src/app/Order/Modules/order.module#OrderModule",
   },
 ];
 

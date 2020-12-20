@@ -40,6 +40,9 @@
 </kendo-grid-column>
 
 <kendo-grid-column field="discount" title="Discount" class="width130px" media="md">
+    <ng-template kendoGridCellTemplate let-dataItem>
+        {{dataItem.discount}}%
+    </ng-template>
 </kendo-grid-column>
 
 <kendo-grid-column field="count" title="Count" class="width130px" media="md">
@@ -56,6 +59,14 @@
         &nbsp;
         <span>
             <a routerLink="/product/edit/{{dataItem.id}}"><i class="fa fa-edit"></i></a>
+        </span>
+    </ng-template>
+</kendo-grid-column>
+
+<kendo-grid-column field="" title="" class="width180px" [filterable]="false">
+    <ng-template kendoGridCellTemplate let-dataItem>
+        <span>
+            <a routerLink="/order/add/{{dataItem.id}}" class="btn btn-light">Order</a>
         </span>
     </ng-template>
 </kendo-grid-column>

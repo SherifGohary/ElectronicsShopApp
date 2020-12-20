@@ -26,7 +26,7 @@ C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\Electronic
 C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.BusinessLogic\obj\Debug\netcoreapp3.1\ElectronicsShop.BusinessLogic.csprojAssemblyReference.cache
 C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.BusinessLogic\obj\Debug\netcoreapp3.1\ElectronicsShop.BusinessLogic.AssemblyInfoInputs.cache
 C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.BusinessLogic\obj\Debug\netcoreapp3.1\ElectronicsShop.BusinessLogic.AssemblyInfo.cs
-C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.BusinessLogic\obj\Debug\netcoreapp3.1\ElectronicsShop.BusinessLogic.csproj.CoreCompileInputs.cache
 C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.BusinessLogic\obj\Debug\netcoreapp3.1\ElectronicsShop.BusinessLogic.csproj.CopyComplete
 C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.BusinessLogic\obj\Debug\netcoreapp3.1\ElectronicsShop.BusinessLogic.dll
 C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.BusinessLogic\obj\Debug\netcoreapp3.1\ElectronicsShop.BusinessLogic.pdb
+C:\Users\HP\source\Workspaces\ElectronicsShop\BackEnd\ElectronicsShop\ElectronicsShop.BusinessLogic\obj\Debug\netcoreapp3.1\ElectronicsShop.BusinessLogic.csproj.CoreCompileInputs.cache

@@ -67,6 +67,8 @@ namespace ElectronicsShop.Api
             #region AutoMapper
             services.AddAutoMapper(typeof(CategoryProfile).GetTypeInfo().Assembly);
             services.AddAutoMapper(typeof(ProductProfile).GetTypeInfo().Assembly);
+            services.AddAutoMapper(typeof(UserProfile).GetTypeInfo().Assembly);
+            services.AddAutoMapper(typeof(OrderProfile).GetTypeInfo().Assembly);
             #endregion
 
             services.AddControllers();
@@ -74,12 +76,16 @@ namespace ElectronicsShop.Api
             #region Repositories
             services.AddTransient<IProductRepository, ProductRepository>();
             services.AddTransient<ICategoryRepository, CategoryRepository>();
+            services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<IOrderRepository, OrderRepository>();
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             #endregion
 
             #region Services
             services.AddTransient<IProductService, ProductService>();
             services.AddTransient<ICategoryService, CategoryService>();
+            services.AddTransient<IUserService, UserService>();
+            services.AddTransient<IOrderService, OrderService>();
             #endregion
 
         }

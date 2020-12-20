@@ -1,4 +1,5 @@
-﻿using ElectronicsShop.Common.Interfaces;
+﻿using ElectronicsShop.Common.Enums;
+using ElectronicsShop.Common.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -19,7 +20,8 @@ namespace ElectronicsShop.Entities.Entities
         public string Address { get; set; }
         public DateTime BirthDate { get; set; }
         public string PhoneNumber { get; set; }
-
+        public RoleEnum Role { get; set; }
+        public virtual ICollection<Order> Orders { get; set; }
 
     }
 }

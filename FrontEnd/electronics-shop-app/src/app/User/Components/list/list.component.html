@@ -1,0 +1,62 @@
+<div class="container-fluid">
+    <div class="row header">
+        <div class="col-md-10">
+            <h3>Users</h3>
+        </div>
+        <div class="col-md-2">
+            <a routerLink="/user/add" 
+            class="btn btn-dark btn-block">Add User</a>
+        </div>
+    </div>
+
+<kendo-grid
+[data]="gridView" 
+[pageSize]="pageSize"
+[skip]="skip"
+[scrollable]="'none'"
+[columnMenu]="true"
+[filter]="state.filter"
+[filterable]="true"
+[sortable]="true"
+[pageable]="true"
+(dataStateChange)="dataStateChange($event)"
+(pageChange)="pageChange($event)"
+>
+
+<kendo-grid-column field="userName" media="(max-width: 768px)" title="User Name">
+    <ng-template kendoGridCellTemplate let-dataItem>
+        <dl>
+            <dt>User Name</dt>
+            <dd>{{dataItem.userName}}</dd>
+
+        </dl>
+    </ng-template>
+</kendo-grid-column>
+
+<kendo-grid-column field="fullName" title="Full Name" class="width130px" media="md">
+</kendo-grid-column>
+
+<kendo-grid-column field="userName" title="UserName" class="width130px" media="md">
+</kendo-grid-column>
+
+<kendo-grid-column field="email" title="Email" class="width130px" media="md">
+</kendo-grid-column>
+
+<kendo-grid-column field="phoneNumber" title="Phone Number" class="width130px" media="md">
+</kendo-grid-column>
+
+
+<kendo-grid-column field="" title="" class="width180px" [filterable]="false">
+    <ng-template kendoGridCellTemplate let-dataItem>
+        <span>
+            <a routerLink="/user/detail/{{dataItem.id}}"><i class="fa fa-eye"></i></a>
+        </span>
+        &nbsp;
+        <span>
+            <a routerLink="/user/edit/{{dataItem.id}}"><i class="fa fa-edit"></i></a>
+        </span>
+    </ng-template>
+</kendo-grid-column>
+
+</kendo-grid>
+</div>

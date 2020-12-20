@@ -1,0 +1,93 @@
+<div class="container-fluid">
+
+    <section class="editor-section">
+        <form role="form" [formGroup]="editorForm">
+            <!-- Product -->
+            <div class="row">
+
+                <div class="form-group col-md-6">
+                    <label>Product
+                    </label>
+                    <div class="detail w-100">
+                        <!-- <input type="text" *ngIf="canEdit()" class="form-control" #productId 
+                        formControlName="productId"> -->
+                
+                        <label
+                            class="form-control">{{itemModel?.product.name}}</label>
+                
+                        <!-- <div class="text-danger" 
+                        *ngIf="(editorForm.controls['productId'].hasError('required' ) )&&
+                                   (editorForm.controls['productId'].touched || 
+                                    editorForm.controls['productId'].dirty)">
+                            required field.
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- NumberOfItems -->
+            <div class="row">
+
+                <div class="form-group col-md-6">
+                    <label>Number Of Items
+                        <i *ngIf="canEdit()" class="text-danger">*</i>
+                    </label>
+                    <div class="detail w-100">
+                        <input type="number" (change)="numberOfItemsChange($event)" *ngIf="canEdit()" class="form-control" #numberOfItems 
+                        formControlName="numberOfItems">
+                
+                        <label *ngIf="editorMode == editorModeEnum.detail"
+                            class="form-control">{{itemModel?.numberOfItems}}</label>
+                
+                        <div class="text-danger" 
+                        *ngIf="(editorForm.controls['numberOfItems'].hasError('required' ) )&&
+                                   (editorForm.controls['numberOfItems'].touched || 
+                                    editorForm.controls['numberOfItems'].dirty)">
+                            required field.
+                        </div>
+                    </div>
+                </div>
+            </div>       
+            
+            
+            <!-- TotalAmount -->
+            <div class="row">
+
+                <div class="form-group col-md-6">
+                    <label>Total Amount
+                    </label>
+                    <div class="detail w-100">
+                        <!-- <input type="text" *ngIf="canEdit()" class="form-control" #totalAmount 
+                        formControlName="totalAmount"> -->
+                
+                        <label
+                            class="form-control">{{itemModel?.totalAmount}}$</label>
+                
+                        <!-- <div class="text-danger" 
+                        *ngIf="(editorForm.controls['numberOfItems'].hasError('required' ) )&&
+                                   (editorForm.controls['numberOfItems'].touched || 
+                                    editorForm.controls['numberOfItems'].dirty)">
+                            required field.
+                        </div> -->
+                    </div>
+                </div>
+            </div>               
+
+            <div class="row">
+                <div class="form-group col-lg-4">
+                    <button *ngIf="canEdit()" type="submit" (click)="save()"
+                        [disabled]="!editorForm.valid || isProccessing" class="btn btn-secondary">
+                        <i class="fa fa-floppy-o verticalLine"></i> Submit
+                    </button>
+                    &nbsp;
+                    <button (click)="goToBack()" class="btn btn-secondary">
+                        <i class="fa fa-undo"></i> Back
+                    </button>
+                </div>
+            </div>
+
+        </form>
+    </section>
+
+
+</div>
