@@ -13,7 +13,7 @@
                         formControlName="productId"> -->
                 
                         <label
-                            class="form-control">{{itemModel?.product.name}}</label>
+                            class="form-control">{{itemModel?.product?.name}}</label>
                 
                         <!-- <div class="text-danger" 
                         *ngIf="(editorForm.controls['productId'].hasError('required' ) )&&
@@ -33,7 +33,7 @@
                         <i *ngIf="canEdit()" class="text-danger">*</i>
                     </label>
                     <div class="detail w-100">
-                        <input type="number" (change)="numberOfItemsChange($event)" *ngIf="canEdit()" class="form-control" #numberOfItems 
+                        <input type="number" (input)="numberOfItemsChange($event)" *ngIf="canEdit()" class="form-control" #numberOfItems 
                         formControlName="numberOfItems">
                 
                         <label *ngIf="editorMode == editorModeEnum.detail"

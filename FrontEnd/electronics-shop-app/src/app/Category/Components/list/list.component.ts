@@ -46,7 +46,7 @@ export class ListComponent implements OnInit {
     // });
 
     this.pageSize = 5;
-    // this.getList();
+    this.getList();
     this.extractRouteParams();
   }
 
@@ -70,7 +70,6 @@ export class ListComponent implements OnInit {
 
   extractRouteParams() {
     let pageIndex = +this.route.snapshot.params['pageIndex'];
-debugger;
     if (pageIndex) {
       this.pageIndex = pageIndex;
       this.skip = this.pageIndex * this.pageSize;  

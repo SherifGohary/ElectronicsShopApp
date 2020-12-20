@@ -55,14 +55,16 @@ namespace ElectronicsShop.BusinessLogic.Services
 				PageIndex = pageIndex,
 				PageSize = pageSize
 			};
-			condition.NavigationProperties.Add("User");
-			condition.NavigationProperties.Add("Product");
-			var entityCollection = this._orderRepository.Get(condition).ToList();
+			var allCount = this._orderRepository.Get().Count();
+			var entityCollection = this._orderRepository.Get(condition)
+				.Include(i=>i.User)
+				.Include(i=>i.Product)
+				.ToList();
 			var modelCollection = entityCollection.Select(entity => _mapper.Map<OrderViewModel>(entity)).ToList();
 			var result = new GenericCollectionViewModel<OrderViewModel>
 			{
 				Collection = modelCollection,
-				TotalCount = modelCollection.Count,
+				TotalCount = allCount,
 				PageIndex = pageIndex,
 				PageSize = pageSize
 			};

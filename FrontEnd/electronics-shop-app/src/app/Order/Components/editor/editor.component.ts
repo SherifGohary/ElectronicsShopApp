@@ -44,6 +44,8 @@ export class EditorComponent implements OnInit {
   getProduct(productId: number){
     this.productService.getProduct(productId).subscribe(result=>{
       this.product = result;
+      this.itemModel.product = this.product;
+      this.itemModel.productId = this.product.id;
     });
   }
 
@@ -63,7 +65,6 @@ export class EditorComponent implements OnInit {
     }
     else if(productId){
       this.getProduct(productId);
-      this.itemModel.product = this.product;
     }
 
     if (this.id) {
@@ -98,7 +99,9 @@ export class EditorComponent implements OnInit {
   }
 
   numberOfItemsChange(event){
-    console.log(event);
+    let numberOfItems = event.target.value;
+    let productPrice = this.itemModel.product.price;
+    this.itemModel.totalAmount = numberOfItems * productPrice;
   }
 
   collectModelFromForm(): void {

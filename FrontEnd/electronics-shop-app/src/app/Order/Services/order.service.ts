@@ -10,7 +10,7 @@ import { Order } from '../Models/order';
 })
 export class OrderService extends BaseService{
 
-  private controller: string = `${this.backendServerUrl}User`;
+  private controller: string = `${this.backendServerUrl}Order`;
 
   constructor(
     http: HttpClient

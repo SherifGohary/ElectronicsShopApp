@@ -51,12 +51,13 @@ namespace ElectronicsShop.BusinessLogic.Services
 				PageIndex = pageIndex,
 				PageSize = pageSize
 			};
+			var allCount = this._userRepository.Get().Count();
 			var entityCollection = this._userRepository.Get(condition).ToList();
 			var modelCollection = entityCollection.Select(entity => _mapper.Map<UserViewModel>(entity)).ToList();
 			var result = new GenericCollectionViewModel<UserViewModel>
 			{
 				Collection = modelCollection,
-				TotalCount = modelCollection.Count,
+				TotalCount = allCount,
 				PageIndex = pageIndex,
 				PageSize = pageSize
 			};
